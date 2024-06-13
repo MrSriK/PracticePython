@@ -22,9 +22,11 @@ else:
     print("Inside Else part")
 
 #Python does not have Do-While Loop, but we can emulate like this. The loop condition must execute at least once
+# Use an infinite While loop
 
-i=0     #do part
-print(i+1)
-while(i<10):    #while part
-    i=0
+i=int(input("Enter a number for Do-While: "))     #do part
+print(i)
+while(i<10):                         #while part
+    i=int(input("Enter a number: "))
     print(i)
+print("Exitted the loop")
